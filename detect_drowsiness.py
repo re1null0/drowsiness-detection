@@ -14,13 +14,13 @@ import dlib
 import cv2
 import pyrebase
 firebaseConfig = {
-    "apiKey": "AIzaSyBZRUk7OQQEpFUOJiYh4biYyRuKiPcZqlA",
-    "authDomain": "aizhan-e6068.firebaseapp.com",
-    "databaseURL": "https://aizhan-e6068.firebaseio.com",
-    "projectId": "aizhan-e6068",
-    "storageBucket": "aizhan-e6068.appspot.com",
-    "messagingSenderId": "59282449687",
-    "appId": "1:59282449687:web:bfe99bbe580c73f21a0352"
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": ""
 }
 firebase = pyrebase.initialize_app(firebaseConfig)
 db = firebase.database()
